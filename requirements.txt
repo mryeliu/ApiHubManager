@@ -1,0 +1,18 @@
+# API 管理系统 运行时依赖
+fastapi>=0.110
+uvicorn[standard]>=0.27
+gunicorn>=21.2
+SQLAlchemy[asyncio]>=2.0
+aiomysql>=0.2.0
+asyncpg>=0.29
+pyodbc>=5.0
+aioodbc>=0.5.0
+aiosqlite>=0.19
+redis>=5.0
+bcrypt>=4.0
+PyJWT>=2.8
+cryptography>=42.0
+pydantic>=2.6
+pydantic-settings>=2.2
+python-dotenv>=1.0
+brotli>=1.1  # A3 可选：启用 Brotli 响应压缩；未安装时自动回退到 Gzip

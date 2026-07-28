@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.git/
+.env
+.env.*
+metadata.db
+.venv/
+.vscode/
+tests/
+_t_logs.py
+*.sqlite3
+*.log

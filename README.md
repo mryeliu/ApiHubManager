@@ -2,6 +2,10 @@
 API管理系统
 ## 一、Docker Compose 部署（推荐，自带 MySQL + Redis）
 
+env.txt 文件更改为.env  并自行修改里面的密钥
+dockerignore  文件更改为.dockerignore
+保存！
+
 ##  安装好 docker  compose   (步骤省略)   将API_Hub_MANAGER 上传到服务器 
 ```bash
 cd api_manager

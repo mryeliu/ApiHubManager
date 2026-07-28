@@ -9,6 +9,8 @@ docker compose up -d --build      # --build 必须带（依赖变了要重建镜
 docker compose ps                 # 三个服务都 healthy 即成功
 ```
 
+
+
 ### 4. 验证
 浏览器打开 `http://<服务器IP>:8000/admin`，首次进入初始化管理员口令页。
 服务器防火墙放行 8000 端口：`sudo firewall-cmd --add-port=8000/tcp --permanent && sudo firewall-cmd --reload`
